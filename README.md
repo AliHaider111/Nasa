@@ -41,7 +41,6 @@ This project is a Node.js backend service that integrates with NASA's public API
 │ ├── config # Environment, logger, mongoose
 │ └── server.js # Main server entry
 ├── .env
-├── .env.example
 └── README.md
 
 
@@ -51,8 +50,6 @@ This project is a Node.js backend service that integrates with NASA's public API
 
 Create a `.env` file in the root folder. Example values:
 
-
-Also make sure you have a `.env.example` for validation using `dotenv-safe`.
 
 ---
 
