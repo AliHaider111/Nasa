@@ -1,9 +1,9 @@
 // make bluebird default Promise
 Promise = require('bluebird'); // eslint-disable-line no-global-assign
-const { port, env } = require('./config/vars');
-const logger = require('./config/logger');
-const server = require('./config/express');
-const mongoose = require('./config/mongoose');
+const { port, env } = require('./src/config/vars');
+const logger = require('./src/config/logger');
+const server = require('./src/config/express');
+const mongoose = require('./src/config/mongoose');
 
 // open mongoose connection
 // mongoose.connect();
