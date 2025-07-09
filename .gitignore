@@ -1,0 +1,19 @@
+#ignore node modules 
+node_modules
+
+#code coverege file
+coverage
+
+#ignore lock file
+package-lock.json
+yarn.lock
+package-lock.json
+
+#ignore uploads files
+uploads
+
+combined.log
+
+#env file
+.env
+

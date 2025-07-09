@@ -1,0 +1,68 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "Arham Irfan",
+  "main": "src/index.js",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "yarn": "*"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express",
+    "node",
+    "node.js",
+    "mongodb",
+    "mongoose",
+    "es6",
+    "es7",
+    "es8",
+    "es2017",
+    "eslint",
+    "REST",
+    "API",
+    "NASA"
+  ],
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.17.0",
+    "compression": "^1.6.2",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.3",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.15.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "express-validation": "^4.1.1",
+    "helmet": "^4.6.0",
+    "http-status": "^1.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.8.1",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^3.0.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.1",
+    "nyc": "^15.1.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.0.0",
+    "supertest": "^6.1.3"
+  }
+}
