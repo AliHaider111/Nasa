@@ -8,7 +8,7 @@ const mongoose = require('./src/config/mongoose');
 // open mongoose connection
 // mongoose.connect();
 
-server.listen(port || 4000, () => logger.info(`server started on port ${port} (${env})`));
+server.listen(port, () => logger.info(`server started on port ${port} (${env})`));
 
 /**
 * Exports express
